@@ -16,7 +16,7 @@ function NasaPOTD(){
         <div className= 'wrapper'>
 
   <h1>{data.title}</h1>
-  <h3>{data.date}</h3>
+  <h3 id="date">{data.date}</h3>
   <img alt = {data.title} src ={data.url}/> 
   <p>{data.explanation}</p>
         </div>
