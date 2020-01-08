@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import Header from './components/Header';
-import Photos from "./components/Photos";
-import Body from "./components/Body";
+import Header from './components/Header/Header';
+import Photos from "./components/Photos/Photos";
+import Body from "./components/Body/Body";
 
 function App() {
   return (
