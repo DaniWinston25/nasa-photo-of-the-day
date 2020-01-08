@@ -6,7 +6,7 @@ function Body(){
 const [setBody] = useState()
 useEffect(()=>{
     axios
-    .get(` https://api.nasa.gov/planetary/apod`)
+    .get(` https://images-api.nasa.gov`)
     .then(response=>{
         setBody(response.data)
      })
@@ -14,7 +14,6 @@ useEffect(()=>{
          return (error);
      });
     },[])
-
 
     return (
         <div>Body</div>
