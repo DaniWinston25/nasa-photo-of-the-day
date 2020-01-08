@@ -4,6 +4,6 @@ function BodyCard(props){
     return(
         {props}
     )
-}
+};
 
 export default BodyCard;
