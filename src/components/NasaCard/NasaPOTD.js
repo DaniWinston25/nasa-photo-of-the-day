@@ -18,7 +18,7 @@ function NasaPOTD(){
   <h1>{data.title}</h1>
   <h3>{data.date}</h3>
   <img alt = {data.title} src ={data.url}/> 
-  <p>{data.explaination}</p>
+  <p>{data.explanation}</p>
         </div>
     )
 }
