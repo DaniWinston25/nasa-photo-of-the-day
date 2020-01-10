@@ -1,11 +1,12 @@
 /* RGB */
-$light: rgba(255, 255, 242, 1);
-$darkblue: rgba(68, 100, 173, 1);
-$background: rgba(164, 176, 245, 1);
-$alternate: rgba(187, 197, 170, 1);
-$dark-alt: rgba(64, 120, 153, 1);
+$dark: rgb( 89, 65, 87);
+$light: rgb(72, 229, 194);
+$alternate: rgb(197, 237, 172);
+$background: rgb( 252, 250, 249);
+$dark-alt: rgb(114, 109, 168);
 
 .wrapper {
+	background-color: $alternate;
 	padding: 10px 0 20px 0;
 	height: 100%;
 	display: flex;
@@ -14,8 +15,8 @@ $dark-alt: rgba(64, 120, 153, 1);
 	h1 {
 		font-size: 3.6rem;
 		font-weight: bold;
-		color: $darkblue;
-		text-shadow: 2px 2px $background;
+		color: $dark;
+		text-shadow: 2px 2px $light;
 	}
 
 	#date {
@@ -29,7 +30,7 @@ $dark-alt: rgba(64, 120, 153, 1);
 	}
 	.date {
 		font-size: 2rem;
-        color: $darkblue;
+        color: $dark;
         margin-right: 5px;
     }
     
@@ -42,7 +43,8 @@ $dark-alt: rgba(64, 120, 153, 1);
 		font-size: 1.2rem;
 		width: 50%;
 		font-family: 'Montserrat';
-        color: $darkblue;
-        background-color: $light;
+        color: $dark;
+		background-color: $background;
+		box-shadow:12px 12px 2px 1px $dark-alt;
 	}
 }
