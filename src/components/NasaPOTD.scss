@@ -1,0 +1,50 @@
+/* RGB */
+$dark: rgb( 89, 65, 87);
+$light: rgb(72, 229, 194);
+$alternate: rgb(197, 237, 172);
+$background: rgb( 252, 250, 249);
+$dark-alt: rgb(114, 109, 168);
+
+.wrapper {
+	background-color: $alternate;
+	padding: 10px 0 20px 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	h1 {
+		font-size: 3.6rem;
+		font-weight: bold;
+		color: $dark;
+		text-shadow: 2px 2px $light;
+	}
+
+	#date {
+		font-size: 2.4rem;
+	}
+
+	img {
+		width: 50%;
+		height: 50vh;
+		margin: 10px 0 10px 0;
+	}
+	.date {
+		font-size: 2rem;
+        color: $dark;
+        margin-right: 5px;
+    }
+    
+    .date-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+	p {
+		font-size: 1.2rem;
+		width: 50%;
+		font-family: 'Montserrat';
+        color: $dark;
+		background-color: $background;
+		box-shadow:12px 12px 2px 1px $dark-alt;
+	}
+}
